@@ -1,5 +1,5 @@
-
-
+import {Link} from 'react-router-dom'
+import PropTypes from 'prop-types'
 
 const Services = ({data}) => {
     const {description,id,image,name,price} = data;
@@ -11,10 +11,17 @@ const Services = ({data}) => {
             <p className="text-center text-[#5f6757]">{description}</p>
             <div className="flex justify-around w-full my-4 items-center">
                 <p className="text-[#5f6757] text-2xl">{price}</p>
-                <button className="text-base text-[#5f6757] hover:text-[#68cf01]">See Details</button>
+                <Link to={`/details/${id}`}>
+                <button className="text-base hover:bg-[#5f6757] hover:text-white
+                py-2 px-4 rounded-full text-[#5f6757]">See Details</button>
+                </Link>
             </div>
         </div>
     );
 };
+
+Services.propTypes={
+    data:PropTypes.object.isRequired,
+}
 
 export default Services;
