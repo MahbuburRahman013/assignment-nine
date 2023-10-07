@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "name": "Photography Package",
+      "image": "https://i.ibb.co/vVLH8C2/1556658-removebg-preview.png",
+      "price": "$2,500",
+      "description": "Capture your special day with our professional photography package. High-quality photos that will preserve your wedding memories."
+    },
+    {
+      "id": "2",
+      "name": "Floral Arrangements",
+      "image": "https://i.ibb.co/bbSRkmL/png-transparent-buttercup-flower-macro-close-up-black-and-white-wild-blossom-bloom-spring-floral-thu.png",
+      "price": "$1,200",
+      "description": "Enhance your wedding's beauty with stunning floral arrangements. Customized bouquets, centerpieces, and more."
+    },
+    {
+      "id": "3",
+      "name": "Catering Services",
+      "image": "https://i.ibb.co/r4g8ytt/images-1-removebg-preview.png",
+      "price": "$4,000",
+      "description": "Delight your guests with a delectable feast. Our catering services offer a range of delicious cuisines to suit your taste."
+    },
+    {
+      "id": "4",
+      "name": "Venue Rental",
+      "image": "https://i.ibb.co/YtCVLzr/246-2465716-luxe-event-rental-tent-icon-event-tent-png-removebg-preview.png",
+      "price": "$3,500",
+      "description": "Host your wedding in a picturesque venue. Our rental includes a beautiful setting for your special day."
+    },
+    {
+      "id": "5",
+      "name": "DJ and Entertainment",
+      "image": "https://i.ibb.co/jMMxkFB/3131329-middle-removebg-preview.png",
+      "price": "$1,800",
+      "description": "Keep the party going with our professional DJ and entertainment services. Dance the night away with your loved ones."
+    },
+    {
+      "id": "6",
+      "name": "Wedding Planning",
+      "image": "https://i.ibb.co/QpsnmGV/wedding-planner-engagement-clip-art-png-favpng-c-REZt8mkxa-WKA2-WT3-Cnn56-JZt-removebg-preview.png",
+      "price": "$2,000",
+      "description": "Let us take care of the details. Our wedding planning services ensure a stress-free and memorable event."
+    }
+  ]
+  

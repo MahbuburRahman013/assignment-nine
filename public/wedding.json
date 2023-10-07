@@ -1,0 +1,57 @@
+[
+    {
+      "id": "1",
+      "name": "Photography Package",
+      "image": "https://i.ibb.co/nMQ4Hkc/1942191-removebg-preview.png",
+      "price": "$2,500",
+      "description": "Capture your special day with our professional photography package. High-quality photos that will preserve your wedding memories.",
+      "banner_pic": "https://example.com/banner1.jpg",
+      "detailed_description": "Our photography package includes a full day of coverage, professional photographers, edited high-resolution photos, and an online gallery for easy sharing with family and friends."
+    },
+    {
+      "id": "2",
+      "name": "Floral Arrangements",
+      "image": "https://i.ibb.co/cLzCnMs/png-transparent-buttercup-flower-macro-close-up-black-and-white-wild-blossom-bloom-spring-floral-thu.jpg",
+      "price": "$1,200",
+      "description": "Enhance your wedding's beauty with stunning floral arrangements. Customized bouquets, centerpieces, and more.",
+      "banner_pic": "https://example.com/banner2.jpg",
+      "detailed_description": "Our floral arrangements are handcrafted to match your wedding theme and colors. We offer a wide variety of flower choices and can create beautiful bouquets, centerpieces, and floral decorations."
+    },
+    {
+      "id": "3",
+      "name": "Catering Services",
+      "image": "https://i.ibb.co/r4g8ytt/images-1-removebg-preview.png",
+      "price": "$4,000",
+      "description": "Delight your guests with a delectable feast. Our catering services offer a range of delicious cuisines to suit your taste.",
+      "banner_pic": "https://example.com/banner3.jpg",
+      "detailed_description": "Our catering services provide a culinary experience that will impress your guests. We offer a diverse menu with options for various dietary preferences and can accommodate both small and large weddings."
+    },
+    {
+      "id": "4",
+      "name": "Venue Rental",
+      "image": "https://i.ibb.co/YtCVLzr/246-2465716-luxe-event-rental-tent-icon-event-tent-png-removebg-preview.png",
+      "price": "$3,500",
+      "description": "Host your wedding in a picturesque venue. Our rental includes a beautiful setting for your special day.",
+      "banner_pic": "https://example.com/banner4.jpg",
+      "detailed_description": "Our venue rental includes a stunning location with indoor and outdoor options. We provide all the necessary amenities and a beautiful backdrop for your wedding ceremony and reception."
+    },
+    {
+      "id": "5",
+      "name": "DJ and Entertainment",
+      "image": "https://i.ibb.co/jMMxkFB/3131329-middle-removebg-preview.png",
+      "price": "$1,800",
+      "description": "Keep the party going with our professional DJ and entertainment services. Dance the night away with your loved ones.",
+      "banner_pic": "https://example.com/banner5.jpg",
+      "detailed_description": "Our DJ and entertainment services include a playlist tailored to your music preferences, professional sound equipment, lighting, and entertainment options to keep your guests dancing and having a great time."
+    },
+    {
+      "id": "6",
+      "name": "Wedding Planning",
+      "image": "https://i.ibb.co/QpsnmGV/wedding-planner-engagement-clip-art-png-favpng-c-REZt8mkxa-WKA2-WT3-Cnn56-JZt-removebg-preview.png",
+      "price": "$2,000",
+      "description": "Let us take care of the details. Our wedding planning services ensure a stress-free and memorable event.",
+      "banner_pic": "https://example.com/banner6.jpg",
+      "detailed_description": "Our wedding planning services cover everything from venue selection and décor planning to timeline coordination and vendor management. We work closely with you to bring your vision to life and create a seamless and memorable wedding day."
+    }
+  ]
+  
