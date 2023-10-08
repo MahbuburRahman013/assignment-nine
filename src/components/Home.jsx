@@ -2,6 +2,8 @@ import Banner from "./Banner";
 import {useLoaderData} from 'react-router-dom'
 import Services from "./Services";
 import Footer from "./Footer";
+import Features from "./Features";
+import Blogs from "./Blogs";
 
 const Home = () => {
         const jsonData = useLoaderData();
@@ -19,6 +21,8 @@ const Home = () => {
             }
             </div>
             </div>
+            <Features></Features>
+            <Blogs></Blogs>
             <Footer></Footer>
         </div>
     );
