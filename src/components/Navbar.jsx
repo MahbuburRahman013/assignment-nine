@@ -9,7 +9,7 @@ const Navbar = () => {
       console.log(user)
    
     const navbar = <>
-            <div id='navbar' className='flex gap-x-14'>
+            <div id='navbar' className='flex flex-col md:flex-row gap-y-6 md:gap-y-0  md:gap-x-14 '>
             <li><NavLink to='/'>Home</NavLink></li>
             <li><NavLink to='/blogs'>All Blogs</NavLink></li>
             <li><NavLink to='/gallery'>Gallery</NavLink></li>
@@ -40,7 +40,7 @@ const Navbar = () => {
         {navbar}
       </ul>
     </div>
-    <a className="text-4xl uppercase font-bold text-[#546346]">Dreams</a>
+    <a className="md:text-4xl ml-3 md:ml-0 uppercase font-bold text-[#546346]">Dreams</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="text-base font-semibold menu-horizontal px-1">
@@ -54,12 +54,12 @@ const Navbar = () => {
     user ?
        <div className='flex gap-3 items-center'>
     <h1>{user.displayName}</h1>
-    <img className='w-12 rounded-full' src={user?.photoURL? user.photoURL : 'https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg' } alt="" />
+    <img className='md:w-12 w-8 rounded-full' src={user?.photoURL? user.photoURL : 'https://t4.ftcdn.net/jpg/02/29/75/83/360_F_229758328_7x8jwCwjtBMmC6rgFzLFhZoEpLobB6L8.jpg' } alt="" />
 
        </div>:''
    }
 
-    <button className='bg-[#fd8e05] text-gray-100 ml-2 py-2 px-5 rounded font-semibold'>
+    <button className='bg-[#fd8e05] text-gray-100 md:ml-2 md:py-2 md:px-5 rounded px-2 md:font-semibold'>
       {
           user? <Link onClick={handleLogOut}>Log out</Link>:<Link to='/login'>Login</Link>
       }

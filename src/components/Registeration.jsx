@@ -51,9 +51,9 @@ const handleGoogle =()=>{
 
     return (
         
-            <div className="container mx-auto flex justify-center items-center">
+            <div className="container px-4 lg:px-0 mx-auto flex justify-center items-center">
             
-            <div className="flex justify-center my-8 rounded items-center border border-gray-400">
+            <div className="flex flex-col lg:flex-row justify-center my-8 rounded items-center border border-gray-400">
             <div className="bg-[#445139] ">
                 <div className='py-16'>
                 <h1 className='text-4xl font-semibold text-gray-200 text-center py-10 uppercase'>Registration</h1>
@@ -62,7 +62,7 @@ const handleGoogle =()=>{
             </div>
             
 
-            <div className='text-[#445139] text-center px-14 w-[60%]'>
+            <div className='text-[#445139] text-center px-4 w-full lg:px-14 lg:w-[60%]'>
                 <h1 className='text-3xl uppercase font-semibold pb-12'>Dream</h1>
                 <h1 className='text-xl pb-6 font-semibold'>Welcome To Dream</h1>
             <form onSubmit={handleCreateUser}>

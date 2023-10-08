@@ -2,7 +2,7 @@
 
 const AllBlogs = () => {
     return (
-        <div className="container mx-auto text-base text-gray-500 my-10">
+        <div className="container px-5 lg:px-0 mx-auto text-base text-gray-500 my-10">
             <h1 className="text-center text-3xl my-5">Mastering the Art of Wedding Planning: A Comprehensive Guide to Your Perfect Day</h1>
             <p>Planning a wedding can be an exhilarating and overwhelming journey. From the moment you say yes to the day you say I do, there is a whirlwind of decisions to be made, details to consider, and dreams to turn into reality. Fortunately, with the right guidance and a talented wedding event management team by your side, you can transform your vision into a seamless, unforgettable celebration.</p>
             <p className="mt-4">In this comprehensive guide, we will walk you through the entire wedding planning process, step by step. We will cover everything from the early stages of engagement to the grand finale of your wedding day. So, let dive in and discover how to master the art of wedding planning for your perfect day.</p>

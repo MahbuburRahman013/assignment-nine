@@ -15,7 +15,7 @@ const ServiceDetails = () => {
          const {detailed_description,banner_pic,name,price} = data;     
     return (
         <div className='container mx-auto'>
-            <img className='w-[90%] rounded h-[85vh] mt-5 mx-auto' src={banner_pic} alt="" />
+            <img className='w-[90%] rounded md:h-[85vh] mt-5 mx-auto' src={banner_pic} alt="" />
             <div className='w-[90%] mx-auto'>
             <h1 className='text-4xl font-semibold mt-5'>{name}</h1>
             <p className='text-xl font-semibold mt-2'>{price}</p>
