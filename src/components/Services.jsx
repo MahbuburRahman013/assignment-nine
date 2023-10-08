@@ -1,11 +1,18 @@
 import {Link} from 'react-router-dom'
 import PropTypes from 'prop-types'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 const Services = ({data}) => {
     const {description,id,image,name,price} = data;
+    useEffect(()=>{
+        Aos.init();
+    },[])
 
     return (
-        <div className="flex flex-col hover:shadow-xl rounded-md   justify-center items-center px-8 py-5">
+        <div data-aos = 'fade-up' data-aos-easing="linear"
+        data-aos-duration="1500" className="flex flex-col hover:shadow-xl rounded-md   justify-center items-center px-8 py-5">
             <img  className="w-[150px] h-[150px]" src={image} alt="" />
             <h1 className="text-2xl my-4 font-semibold text-[#546346]">{name}</h1>
             <p className="text-center text-[#5f6757]">{description}</p>

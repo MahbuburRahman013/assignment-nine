@@ -13,13 +13,19 @@ const handleCreateUser = (e) =>{
          const email = e.target.email.value;
          const name = e.target.name.value;
          const password = e.target.password.value;
+
+         if(!/^(?=.*[A-Z])(?=.*\W).{6,}/.test(password)){
+            return toast.error('Invalid Password!!')
+         }
+
+
         createUser(email,password)
         .then(result=>{
-            toast.success('Registration Successfully!')
-            e.target.reset();
             updateProfile(auth.currentUser,{
                 displayName:name,
             }).then().catch()
+            e.target.reset();
+            toast.success('Registration Successfully!')
             console.log(result.user)
             
         })

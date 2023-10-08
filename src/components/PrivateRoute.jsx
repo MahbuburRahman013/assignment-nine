@@ -5,9 +5,11 @@ import PropTypes from 'prop-types'
 
 
 const PrivateRoute = ({children}) => {
-     const {user} = useContext(ContextProvider)
+     const {user,isTrue} = useContext(ContextProvider)
      const location = useLocation();
-     
+     if(isTrue){
+        <p>Loading....</p>
+     }
       
      if(!user){
         return <Navigate state={location.pathname} to='/login'></Navigate>

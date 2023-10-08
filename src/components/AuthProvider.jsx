@@ -10,19 +10,24 @@ const googleProvider = new GoogleAuthProvider()
 const AuthProvider = ({children}) => {
 
     const [user,setUser] = useState([])
+    const [isTrue , setIsTrue] = useState(true)
 
 const createUser = (email,password)=>{
+    setIsTrue(true)
    return createUserWithEmailAndPassword(auth,email,password)
 }
 const googleUser = ()=>{
+    setIsTrue(true)
    return signInWithPopup(auth,googleProvider);
 }
 
 const singInUser = (email,password)=>{
+    setIsTrue(true)
    return signInWithEmailAndPassword(auth,email,password)
 }
 
 const logOutUser = () =>{
+    setIsTrue(true)
    return signOut(auth)
 }
 
@@ -31,6 +36,7 @@ const logOutUser = () =>{
 useEffect(()=>{
    const unSubscribe = onAuthStateChanged(auth,currentUser=>{
           setUser(currentUser)
+          setIsTrue(false)
     })
     return()=>{
         unSubscribe()
@@ -43,7 +49,8 @@ const authInfo = {
       googleUser,
       singInUser,
       user,
-      logOutUser
+      logOutUser,
+      isTrue
 }
 
 

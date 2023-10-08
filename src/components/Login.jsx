@@ -18,7 +18,7 @@ const Login = () => {
              singInUser(email,password)
             .then(result=>{
                 toast.success('Sing in Successfully!')
-                navigate(location.state? location.state : '/')
+                navigate(location.state&& location.state)
                 console.log(result.user)
                 
             })
@@ -33,7 +33,7 @@ const Login = () => {
         googleUser()
         .then(result=>{
             toast.success('Sing in Successfully!')
-            navigate(location.state? location.state : '/')
+            navigate(location.state&& location.state)
             console.log(result.user)
         })
         .catch(error=>{

@@ -10,7 +10,7 @@ const Features = () => {
                 <p>Event</p>
                 <p>Honeymoon</p>
             </div>
-            <img className="w-full rounded-lg lg:h-[85vh]" src="https://i.ibb.co/QDn0RvP/1436217660105-wedding-professional-of-the-year-arthurk-fusio.jpg" alt="" />
+            <img className="w-full rounded-lg lg:h-[90vh]" src="https://i.ibb.co/QDn0RvP/1436217660105-wedding-professional-of-the-year-arthurk-fusio.jpg" alt="" />
         </div>
     );
 };
