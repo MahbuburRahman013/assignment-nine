@@ -1,8 +1,8 @@
-# React + Vite
+# five features and functionalities of this website.
+- If the user clicks on the service card button, it will go to the login page.
+- If the user clicks on the service card button, it will take the details page if the user is logged in.
+- If the user clicks on the Logout button, the user will be logged out.
+- If the password is less than six on the registration page, or if there is no capital letter or if there is no special character, an error message will be shown.
+- If the password or email is wrong on the login page, it will show an error message.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## website's name: "Dream" .
