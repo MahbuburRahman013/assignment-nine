@@ -47,9 +47,12 @@ const handleGoogle =()=>{
         
             <div className="container mx-auto flex justify-center items-center">
             
-            <div className="flex justify-center mt-8 rounded items-center border border-gray-400">
-            <div className="bg-[#445139]">
-                <img className='py-28 mx-auto w-[80%]' src="https://i.ibb.co/zR4ZRYD/image-processing20210613-1005-1g7cwuk-removebg-preview.png" alt="" />
+            <div className="flex justify-center my-8 rounded items-center border border-gray-400">
+            <div className="bg-[#445139] ">
+                <div className='py-16'>
+                <h1 className='text-4xl font-semibold text-gray-200 text-center py-10 uppercase'>Registration</h1>
+                <img className=' mx-auto w-[80%]' src="https://i.ibb.co/zR4ZRYD/image-processing20210613-1005-1g7cwuk-removebg-preview.png" alt="" />
+                </div>
             </div>
             
 
