@@ -5,7 +5,7 @@ import { TfiWorld } from 'react-icons/tfi';
 
 const Footer = () => {
     return (
-        <div className="bg-[#445139] lg:h-[50vh] pt-10 text-gray-200">
+        <div className="bg-[#445139] lg:h-[50vh] mt-10 pt-10 text-gray-200">
             <div className="container mx-auto pt-10 pb-24  border-t border-b border-gray-500 grid md:grid-cols-2 grid-cols-1 gap-y-10 lg:gap-y-0 lg:grid-cols-4 px-5 lg:px-0">
                       <div className='text-4xl'>
                       DREAMS

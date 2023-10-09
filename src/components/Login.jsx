@@ -62,8 +62,8 @@ const Login = () => {
                 <h1 className='text-3xl uppercase font-semibold pb-12'>Dream</h1>
                 <h1 className='text-xl pb-6 font-semibold'>Welcome To Dream</h1>
             <form onSubmit={handleLoginUser}>
-                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base rounded w-full' type="email" name="email" placeholder="Enter Your Email"/>
-                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base rounded mt-7 w-full'  type="password" name="password" placeholder="Password" />
+                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base  w-full' type="email" name="email" placeholder="Enter Your Email"/>
+                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base  mt-7 w-full'  type="password" name="password" placeholder="Password" />
                 <p className='text-sm mt-1 text-right text-orange-500 underline'>Forget Your Password</p>
 
                 

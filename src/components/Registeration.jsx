@@ -12,6 +12,7 @@ const handleCreateUser = (e) =>{
          e.preventDefault();
          const email = e.target.email.value;
          const name = e.target.name.value;
+         const photo = e.target.photo.value;
          const password = e.target.password.value;
 
          if(!/^(?=.*[A-Z])(?=.*\W).{6,}/.test(password)){
@@ -23,10 +24,14 @@ const handleCreateUser = (e) =>{
         .then(result=>{
             updateProfile(auth.currentUser,{
                 displayName:name,
-            }).then().catch()
-            e.target.reset();
-            toast.success('Registration Successfully!')
-            console.log(result.user)
+                photoURL:photo,
+            }).then(()=>{
+                e.target.reset();
+                toast.success('Registration Successfully!')
+                window.location.reload();
+                console.log(result.user)
+            }).catch()
+            
             
         })
         .catch(error=>{
@@ -55,7 +60,7 @@ const handleGoogle =()=>{
             
             <div className="flex flex-col lg:flex-row justify-center my-8 rounded items-center border border-gray-400">
             <div className="bg-[#445139] ">
-                <div className='py-16'>
+                <div className='py-24'>
                 <h1 className='text-4xl font-semibold text-gray-200 text-center py-10 uppercase'>Registration</h1>
                 <img className=' mx-auto w-[80%]' src="https://i.ibb.co/zR4ZRYD/image-processing20210613-1005-1g7cwuk-removebg-preview.png" alt="" />
                 </div>
@@ -66,10 +71,12 @@ const handleGoogle =()=>{
                 <h1 className='text-3xl uppercase font-semibold pb-12'>Dream</h1>
                 <h1 className='text-xl pb-6 font-semibold'>Welcome To Dream</h1>
             <form onSubmit={handleCreateUser}>
-                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base rounded w-full' type="text" name="name" placeholder="Your Name"/>
+                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base  w-full' type="text" name="name" placeholder="Your Name"/>
 
-                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base rounded mt-7 w-full' type="email" name="email" placeholder="Your Email"/>
-                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base rounded mt-7 w-full'  type="password" name="password" placeholder="Password" />
+                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base  mt-7 w-full' type="text" name="photo" placeholder="Photo URL"/>
+
+                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base  mt-7 w-full' type="email" name="email" placeholder="Your Email"/>
+                <input className='block outline-none border-b border-gray-300 py-2 px-5 text-base  mt-7 w-full'  type="password" name="password" placeholder="Password" />
                 
                 <input className='w-[50%] bg-[#526146] cursor-pointer text-gray-200  font-semibold py-2 px-5 rounded-full mt-5' type="submit" value="Register" />
             </form>
