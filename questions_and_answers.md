@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: - B: `ReferenceError: greetign is not defined`.
+#### Answer: - A: `{}`.
 
-<i>There's a typo, and greetign is not declared as a variable using let, const, or var. As a result, when you try to assign an empty object to greetign, JavaScript will not recognize it as a variable and will throw a ReferenceError because greetign is not defined.</i>
+<i>This is because you've created an empty JavaScript object and logged it to the console using console.log(greeting). The variable greeting contains an empty object, so that's what gets logged.JavaScript is case-sensitive, so greeting and greetign are considered different variables.</i>
 
 </p>
 </details>
